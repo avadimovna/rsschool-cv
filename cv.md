@@ -3,8 +3,11 @@
 ### Contact
 
 **Kiyv, Ukraine**
+
 ***tel: +380669553898***
+
 *discord: Ssstreizand#2332*
+
 *[telegram](https://t.me/avadimovna)*
 
 ### ABOUT ME
