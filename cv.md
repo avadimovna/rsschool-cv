@@ -1,5 +1,7 @@
 # ANASTASIIA KHOTIAN
 
+![my photo](/photo_for_cv.jpg)
+
 ### Contact
 
 **Kiyv, Ukraine**
@@ -20,6 +22,19 @@ I have some basic skills in:
 * CSS
 * C++
 
+#### Code Example
+
+Reversed strings from Codewars
+
+```javascript
+function solution(str){
+  var splitString = str.split("");
+  var reverseArray = splitString.reverse();
+  var arrayToString = reverseArray.join("");
+  return arrayToString;
+}
+```
+
 ### Languages
 
 * English (pre-intermediate)
@@ -35,4 +50,3 @@ I have some basic skills in:
 **2015-2019** not graduated
 
 Incomplete higher education
-
