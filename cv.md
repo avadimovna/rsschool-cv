@@ -28,8 +28,11 @@ I have some basic skills in:
 
 ### Education
 
-**University**:*Kyiv Polytechnic Institute*
-**Faculty**:*Institute of Physics and Technology*
-2015-2019 not graduated
+**University**: *Kyiv Polytechnic Institute*
+
+**Faculty**: *Institute of Physics and Technology*
+
+**2015-2019** not graduated
+
 Incomplete higher education
 
