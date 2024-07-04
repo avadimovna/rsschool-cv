@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <ul class="nav-links">
+                <li><a href="#aboutMe">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code-example">Code example</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="page">
+            <div class="left-column">
+                <img class="profile-photo" src="photo_for_cv.jpg" width="300" alt="portrait">
+                <h1>Anastasiia Khotian</h1>
+                <p class="job-title">Trainee Frontend Developer</p>
+                <section class="contacts">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Address:<br>Kyiv, Ukraine</li>
+                        <li>Number:<br><a href="tel:+380986086695">+380986086695</a></li>
+                        <li>Discord:<br>Anastasia(@avadimovna)</li>
+                        <li><a href="https://t.me/avadimovna">Telegram</a></li>
+                    </ul>
+                </section>
+                <section class="languages">
+                    <h2 id="languages">Languages</h2>
+                    <ul>
+                        <li>English - Intermediate</li>
+                        <li>Ukrainian - Native</li>
+                        <li>Russian - Advanced</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="right-column">
+                <section class="about-me">
+                    <h2 id="aboutMe">About me</h2>
+                    <p>I am 26 years old. For many years i was working as a sales manager at English schools. But I want something more. I have been interested in programming for a long time and want to develop in various areas. In programming, I would like to try my hand at front-end and gamedev. I have no experience in programming yet, because I'm just at the beginning of my journey.</p>
+                </section>
+                <section class="skills">
+                    <h2 id="skills">Skills</h2>
+                    <p>I have some basic skills in:</p>
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JS</li>
+                        <li>C++</li>
+                    </ul>
+                </section>
+                <section class="code-example">
+                    <h2 id="code-example">Code Example</h2>
+                    <p>Reversed strings from Codewars</p>
+                    <pre>
+                        <code>
+                            function solution(str){
+                                var splitString = str.split("");
+                                var reverseArray = splitString.reverse();
+                                var arrayToString = reverseArray.join("");
+                                return arrayToString;
+                            }
+                        </code>
+                    </pre>
+                </section>
+                <section class="education">
+                    <h2 id="education">Education</h2>
+                    <p><span class="highlights">University: </span>Kyiv Polytechnic Institute</p>
+                    <p><span class="highlights">Faculty: </span>Institute of Physics and Technology</p>
+                    <p><span class="highlights">2015-2019 </span>not graduated</p>
+                    <p>Incomplete higher education</p>
+                </section>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <a class="my-github" href="https://github.com/avadimovna">My GitHub</a>
+        <p>© 2024</p>
+        <a href="https://rs.school/courses/javascript-ru">
+            <img src="rsschool-logo.svg" width="73" height="26" alt="rss logo">
+        </a>
+    </footer>
+</body>
+</html>
